@@ -4,7 +4,7 @@ import pandas as pd
 from fastcluster import complete as MaxLinkage
 from scipy.cluster.hierarchy import fcluster
 from scipy.spatial.distance import squareform, pdist
-from typing import Tuple, Optional
+from typing import Tuple, Optional, Union
 from numpy.typing import ArrayLike, NDArray
 
 try:
@@ -330,7 +330,7 @@ class RoughnessIndex:
 
         return distance_thresholds, moments
 
-    def compute_index(self, min_dt: float = 0.01, nboots: int = 1) -> Tuple[float, Optional[float]]:
+    def compute_index(self, min_dt: float = 0.01, nboots: int = 1) -> Union[float, Tuple[float, float]]:
         """Computes the ROGI score.
 
         Parameters
@@ -388,4 +388,4 @@ class RoughnessIndex:
 
             return rogi_score, np.std(boot_scores)
         else:
-            return rogi_score, None
+            return rogi_score
