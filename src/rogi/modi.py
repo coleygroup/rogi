@@ -25,6 +25,8 @@ def MODI(Dx: NDArray, Y: ArrayLike) -> float:
         MODI score.
     """
 
+    Y = np.array(Y)
+
     # make diagonal largest value, i.e. no self neighbors
     Dx[np.diag_indices(Dx.shape[0])] = np.max(Dx)
 
