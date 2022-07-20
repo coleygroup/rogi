@@ -1,7 +1,7 @@
 # Measures of roughness for molecular property landscapes
 
 This package implements the roughness index (ROGI) presented in 
-["Roughness of Molecular Property Landscapes and Its Impact on Modellability"](#), as well
+["Roughness of Molecular Property Landscapes and Its Impact on Modellability"](https://arxiv.org/abs/2207.09250), as well
 as the [SARI](https://pubs.acs.org/doi/10.1021/jm0705713), [MODI](https://pubs.acs.org/doi/10.1021/ci400572x), 
 and [RMODI](https://pubs.acs.org/doi/10.1021/acs.jcim.8b00313) indices.
 
