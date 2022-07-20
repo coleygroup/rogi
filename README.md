@@ -129,12 +129,13 @@ If you make use of the ``rogi`` package in scientific publications, please cite 
 
 ```
 @misc{rogi,
-      title={A Measure of Roughness for Molecular Property Landscapes}, 
-      author={Matteo Aldeghi ... Connor W. Coley},
+      title={Roughness of molecular property landscapes and its impact on modellability}, 
+      author={Matteo Aldeghi and David E. Graff and Nathan Frey and Joseph A. Morrone and 
+              Edward O. Pyzer-Knapp and Kirk E. Jordan and Connor W. Coley},
       year={2022},
-      eprint={},
+      eprint={2207.09250},
       archivePrefix={arXiv},
-      primaryClass={}
+      primaryClass={q-bio.QM}
       }
 ```
 
